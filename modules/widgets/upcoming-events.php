@@ -3,7 +3,7 @@
 class Jetpack_Upcoming_Events_Widget extends WP_Widget {
 	function __construct() {
 		parent::__construct(
-			'upcoming_events_widget',
+			'jetpack_upcoming_events_widget',
 			/** This filter is documented in modules/widgets/facebook-likebox.php */
 			apply_filters( 'jetpack_widget_name', __( 'Upcoming Events', 'jetpack' ) ),
 			array(
