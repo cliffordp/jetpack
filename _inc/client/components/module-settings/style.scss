@@ -28,6 +28,27 @@
 }
 
 // Connection Settings styles
+.jp-connections, .jp-connection-info {
+	display: flex;
+}
+.jp-connection-type:first-child {
+	margin-right: rem( 16px );
+}
+.jp-connection-text {
+	width: 72%;
+	margin-left: rem( 16px );
+}
+.jp-connection-info {
+	.gridicon {
+		opacity: .6;
+		background: #c8d7e1;
+		color: #fff;
+	}
+	.jp-connection-settings__gravatar {
+		margin-bottom: 0;
+	}
+}
+
 .jp-connection-settings {
 	margin: rem( 24px ) 0;
 	text-align: center;
@@ -41,8 +62,8 @@
 .jp-connection-settings__gravatar {
 	display: inline-block;
 	margin-bottom: rem( 16px );
-	width: rem( 72px );
-	height: rem( 72px );
+	width: rem( 64px );
+	height: rem( 64px );
 	background: $gray;
 	border-radius: 50%;
 }
@@ -65,7 +86,6 @@
 		margin: 0 rem( 4px ) rem( 16px );
 	}
 }
-
 
 // Related Posts Preview styles
 .jp-related-posts-preview {
